@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Big Shoulders Inline";
+  src: url("/src/assets/fonts/BigShouldersInline-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/src/assets/fonts/PlusJakartaSans-Regular.ttf");
+}
+
+@theme {
+  --font-plus-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-big-shoulders-inline: "Big Shoulders Inline", sans-serif;
+}
