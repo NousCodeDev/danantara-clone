@@ -1,4 +1,4 @@
-import { LoadingScreen } from "./components/LoadingScreen";
+// import { LoadingScreen } from "./components/LoadingScreen";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
@@ -12,7 +12,6 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <>
-      <ScrollToTop />
       <div className="font-plus-jakarta min-h-screen scroll-smooth">
         <Navbar />
         <Hero />
@@ -22,7 +21,8 @@ function App() {
         <VisiMission />
         <Contact />
         <Footer />
-        <LoadingScreen />
+        <ScrollToTop />
+        {/* <LoadingScreen /> */}
       </div>
     </>
   );
